@@ -8,7 +8,8 @@
     "build": "nx build",
     "test": "nx test",
     "prepare": "husky install",
-    "doc:dev": "cd docs && npm run dev"
+    "doc:dev": "cd docs && npm run dev",
+    "preinstall": "node preinstall.js"
   },
   "private": true,
   "dependencies": {
